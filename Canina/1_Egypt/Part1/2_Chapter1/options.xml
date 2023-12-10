@@ -4,10 +4,11 @@
   <ocrOptions>
     <version>4</version>
     <attributes>
-      <item>PullAndRecognize</item>
-      <item>UseBadEncodingDetector</item>
+      <item>DoNotUseBuiltInPatterns</item>
       <item>AddGothicTextType</item>
     </attributes>
+    <patternName>(Default)</patternName>
+    <patternMode>ReadWithUserPattern</patternMode>
     <language>
       <version>0</version>
       <isLanguageDatabase>true</isLanguageDatabase>
@@ -73,6 +74,6 @@
       </attributes>
     </textOptions>
   </exportOptions>
-  <userPatterns>AAA=</userPatterns>
+  <userPatterns>AAEJKABEAGUAZgBhAHUAbAB0ACkAfAAAAEhDQUMHAAAA/AAAAAAAAAALAAAAAAAAAAAAAAAAAAAAVw0KDQpVc2VyIHBhdHRlcm5zIGZpbGUuIERvIG5vdCBlZGl0IQ0KQUJCWVkgT0NSIFRlY2hub2xvZ3kgYnVpbGQgdmVyc2lvbjogMTYuMy42MC41MS4NCgAAAAA=</userPatterns>
   <property>EgEA</property>
 </options>
